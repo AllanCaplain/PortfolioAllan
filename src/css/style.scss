@@ -1,4 +1,10 @@
-body {
-    background: black;
-    color: white;
-}
+@import './reset';
+@import '../components/component/about/about';
+@import '../components/component/contact/contact';
+@import '../components/component/experience/experience';
+@import '../components/component/footer/footer';
+@import '../components/component/header/header';
+@import '../components/component/nav/nav';
+@import '../components/component/portfolio/portfolio';
+@import '../components/component/services/services';
+@import '../components/component/testimonials/testimonials';
