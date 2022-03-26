@@ -99,4 +99,24 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 86%;
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

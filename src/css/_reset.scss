@@ -18,9 +18,9 @@ $colorprimaryVariant: rgba(77, 181, 255, 0.4);
 $colorWhite: #fff;
 $colorLight: rgba(255, 255, 255, 0.6);
 
-$containerWidthLg : 75%;
+$containerWidthLd : 75%;
 $containerWidthMd : 86%;
-$containerWidthMs : 90%;
+$containerWidthSd : 90%;
 
 $transition400 : all 400ms ease;
 
@@ -44,7 +44,7 @@ body {
 /* ========== GENERAL STYLES ========== */
 
 .container {
-    width: $containerWidthLg;
+    width: $containerWidthLd;
     margin: 0 auto;
 }
 
@@ -108,3 +108,30 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: $containerWidthMd;
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: $containerWidthSd;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+}
+
+
+
