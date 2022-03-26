@@ -42,6 +42,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -209,5 +210,47 @@ header {
   .header_socials, .scroll_down {
     display: none;
   }
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: #1f1f38;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
