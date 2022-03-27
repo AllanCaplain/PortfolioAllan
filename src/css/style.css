@@ -231,6 +231,96 @@ img {
   }
 }
 
+#contact .contact_container {
+  widows: 58%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 58%;
+      grid-template-columns: 30% 58%;
+  gap: 12%;
+  /* ========== FORM ========== */
+}
+
+#contact .contact_container .contact_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+}
+
+#contact .contact_container .contact_options .contact_option {
+  background: #2c2c6c;
+  border-radius: 1.2rem;
+  padding: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+#contact .contact_container .contact_options .contact_option:hover {
+  background-color: transparent;
+  border: 1px solid rgba(77, 181, 255, 0.4);
+}
+
+#contact .contact_container .contact_options .contact_option .contact_option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#contact .contact_container .contact_options .contact_option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+#contact .contact_container .contact_options .contact_option h5 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#contact .contact_container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+}
+
+#contact .contact_container form input, #contact .contact_container form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background: transparent;
+  border: 2px solid rgba(77, 181, 255, 0.4);
+  resize: none;
+  color: #fff;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  #contact .contact_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 2rem;
+    /* ========== FORM ========== */
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  #contact .contact_container {
+    width: 90%;
+    /* ========== FORM ========== */
+  }
+}
+
 #experience .experience_container {
   display: -ms-grid;
   display: grid;
