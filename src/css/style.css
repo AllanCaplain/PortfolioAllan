@@ -42,7 +42,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -197,6 +196,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
   .about_container {
     -ms-grid-columns: 1fr;
@@ -282,6 +282,33 @@ img {
 #experience .experience_container .experience_frontend .experience_content .experience_details-icon, #experience .experience_container .experience_backend .experience_content .experience_details-icon {
   margin-top: 6px;
   color: #4db5ff;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  #experience .experience_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #experience .experience_container .experience_frontend, #experience .experience_container .experience_backend {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  #experience .experience_container .experience_frontend .experience_content, #experience .experience_container .experience_backend .experience_content {
+    padding: 1rem;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  #experience .experience_container {
+    gap: 1rem;
+  }
+  #experience .experience_container .experience_frontend, #experience .experience_container .experience_backend {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
 }
 
 header {
