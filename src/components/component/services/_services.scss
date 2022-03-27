@@ -1,0 +1,46 @@
+#services {
+    .services_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        .service {
+            background: $colorbgVariant;
+            border-radius: 0 0 2rem 2rem;
+            border: 1px solid $colorPrimary;
+            height: fit-content;
+            transition: $transition400;
+            &:hover {
+                background: transparent;
+                border-color: $colorprimaryVariant;
+                cursor: default;
+            }
+            .service_head {
+                background: $colorPrimary;
+                padding: 2rem;
+                border-radius: 0 0 2rem 2rem;
+                box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+                h3 {
+                    color: $colorbg;
+                    text-align: center;
+                    font-size: 1rem;
+                }
+                
+            }
+            .service_list {
+                padding: 2rem;
+                li {
+                    display: flex;
+                    gap: 1rem;
+                    margin-bottom: 0.8rem;
+                    .service_list-icon {
+                        color: $colorPrimary;
+                        margin-top: 3px;
+                    }
+                }
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
