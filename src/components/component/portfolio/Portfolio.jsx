@@ -11,42 +11,42 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Crypto Currency Dashboard & Financial Vizualisation',
-    github: 'https://github.com/',
+    github: 'https://github.com/AllanCaplain?tab=repositories',
     demo: 'https://dribbble.com/shots/16673715'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com/',
+    github: 'https://github.com/AllanCaplain?tab=repositories',
     demo: 'https://dribbble.com/shots/16580766'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com/',
+    github: 'https://github.com/AllanCaplain?tab=repositories',
     demo: 'https://dribbble.com/shots/17290917'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com/',
+    github: 'https://github.com/AllanCaplain?tab=repositories',
     demo: 'https://dribbble.com/shots/16955822'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com/',
+    github: 'https://github.com/AllanCaplain?tab=repositories',
     demo: 'https://dribbble.com/shots/16541289'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com/',
+    github: 'https://github.com/AllanCaplain?tab=repositories',
     demo: 'https://dribbble.com/shots/15887665'
   },
 ]
